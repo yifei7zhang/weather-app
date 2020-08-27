@@ -37,7 +37,7 @@ app.get("/about", (req, res) => {
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    helpMsg: "sucks bro",
+    helpMsg: "Enter in a location (city, zipcode, address, etc.) and get your weather forecast!",
     title: "Help",
     name: "Yifei Zhang",
   });
